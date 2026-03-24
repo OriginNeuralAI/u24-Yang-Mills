@@ -1,0 +1,14 @@
+{
+  "gauge_group": "SU(3)",
+  "beta": 3.0,
+  "spatial_dimension": 3,
+  "power_law_exponent": 3.09,
+  "data_points": [
+    {"L": 3, "N": 648, "E0": -2124.0, "barrier": 240.0, "barrier_over_L2": 26.67, "time_s": 1.8},
+    {"L": 4, "N": 1536, "E0": -5040.0, "barrier": 516.0, "barrier_over_L2": 32.25, "time_s": 4.9},
+    {"L": 5, "N": 3000, "E0": -9708.0, "barrier": 1080.0, "barrier_over_L2": 43.20, "time_s": 49.7},
+    {"L": 6, "N": 5184, "E0": -17124.0, "barrier": 2268.0, "barrier_over_L2": 63.00, "time_s": 387.3},
+    {"L": 7, "N": 8232, "E0": -27360.0, "barrier": 3036.0, "barrier_over_L2": 61.96, "time_s": 2184.3}
+  ],
+  "conclusion": "barrier ~ L^3.09, super-area-law growth confirms confinement"
+}

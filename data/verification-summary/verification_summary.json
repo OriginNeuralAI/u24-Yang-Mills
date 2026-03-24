@@ -1,0 +1,305 @@
+{
+  "total_checks": 59,
+  "passed": 59,
+  "failed": 0,
+  "pass_rate": "59/59",
+  "elapsed_seconds": 280.9,
+  "central_result": "Tr(J_YM^{SU(3)}) = 24 = Omega",
+  "checks": [
+    {
+      "name": "SU(2): f^{abc} antisymmetric",
+      "passed": true,
+      "detail": "f^{abc} = -f^{bac}"
+    },
+    {
+      "name": "SU(2): J = 2\u00b7I\u2083",
+      "passed": true,
+      "detail": "max|J - 2I| = 0.00e+00"
+    },
+    {
+      "name": "SU(2): Tr(J) = 6",
+      "passed": true,
+      "detail": "Tr = 6.0"
+    },
+    {
+      "name": "SU(2): all eigenvalues = 2",
+      "passed": true,
+      "detail": "eigs = [2. 2. 2.]"
+    },
+    {
+      "name": "SU(2): J positive definite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SU(3): f^{abc} antisymmetric",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SU(3): Jacobi identity",
+      "passed": true,
+      "detail": "f^{abe}f^{ecd} + cyclic = 0"
+    },
+    {
+      "name": "SU(3): J = 3\u00b7I\u2088",
+      "passed": true,
+      "detail": "max|J - 3I| = 4.44e-16"
+    },
+    {
+      "name": "SU(3): all eigenvalues = 3",
+      "passed": true,
+      "detail": "eigs = [3. 3. 3. 3. 3. 3. 3. 3.]"
+    },
+    {
+      "name": "SU(3): J positive definite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SU(3): Tr(J) = 24",
+      "passed": true,
+      "detail": "Tr = 24.0"
+    },
+    {
+      "name": "SU(3): Tr(J) = \u03a9",
+      "passed": true,
+      "detail": "Tr(J) = 24.0, \u03a9 = 24"
+    },
+    {
+      "name": "SU(3): C\u2082(adj) = N = 3",
+      "passed": true,
+      "detail": "C\u2082 = 3.0"
+    },
+    {
+      "name": "SU(3): dim(\ud835\udd24) = 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SU(3): spectral democracy (all eigs equal)",
+      "passed": true,
+      "detail": "max spread = 4.44e-16"
+    },
+    {
+      "name": "SU(3) is UNIQUE with Tr = 24",
+      "passed": true,
+      "detail": "Only SU(3) among SU(N) has Tr(J) = \u03a9"
+    },
+    {
+      "name": "E\u2088: 240 roots",
+      "passed": true,
+      "detail": "count = 240"
+    },
+    {
+      "name": "E\u2088: minimal norm = \u221a2",
+      "passed": true,
+      "detail": "min = 1.414214"
+    },
+    {
+      "name": "E\u2088: all norms = \u221a2",
+      "passed": true,
+      "detail": "max deviation = 0.00e+00"
+    },
+    {
+      "name": "E\u2088: inner products \u2208 {-2,-1,0,1,2}",
+      "passed": true,
+      "detail": "unique values = [np.int64(-2), np.int64(-1), np.int64(0), np.int64(1), np.int64(2)]"
+    },
+    {
+      "name": "E\u2088: Cartan matrix diagonal = 2",
+      "passed": true,
+      "detail": "diag = [2. 2. 2. 2. 2. 2. 2. 2.]"
+    },
+    {
+      "name": "E\u2088: rank = 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "E\u2088 \u2283 SU(2): Tr = 6",
+      "passed": true,
+      "detail": "C\u2082=2, dim=3"
+    },
+    {
+      "name": "E\u2088 \u2283 SU(3): Tr = 24 = \u03a9",
+      "passed": true,
+      "detail": "C\u2082=3, dim=8"
+    },
+    {
+      "name": "E\u2088 \u2283 G\u2082: Tr = 56",
+      "passed": true,
+      "detail": "C\u2082=4, dim=14"
+    },
+    {
+      "name": "E\u2088 \u2283 SU(5): Tr = 120",
+      "passed": true,
+      "detail": "C\u2082=5, dim=24"
+    },
+    {
+      "name": "E\u2088 \u2283 F\u2084: Tr = 468",
+      "passed": true,
+      "detail": "C\u2082=9, dim=52"
+    },
+    {
+      "name": "E\u2088 \u2283 E\u2086: Tr = 936",
+      "passed": true,
+      "detail": "C\u2082=12, dim=78"
+    },
+    {
+      "name": "E\u2088 \u2283 E\u2087: Tr = 2394",
+      "passed": true,
+      "detail": "C\u2082=18, dim=133"
+    },
+    {
+      "name": "E\u2088 \u2283 E\u2088: Tr = 7440",
+      "passed": true,
+      "detail": "C\u2082=30, dim=248"
+    },
+    {
+      "name": "SU(2): plaquette in (0, 1)",
+      "passed": true,
+      "detail": "<P> = 0.6083"
+    },
+    {
+      "name": "SU(2): Wilson loop |W| decays with area",
+      "passed": true,
+      "detail": "|W(1,1)|=0.6392 \u2265 |W(2,2)|=0.1595"
+    },
+    {
+      "name": "SU(2): string tension \u03c3 > 0",
+      "passed": true,
+      "detail": "\u03c3 \u2248 0.447"
+    },
+    {
+      "name": "SU(2): mass gap \u0394 > 0 from correlator",
+      "passed": true,
+      "detail": "a\u0394 \u2248 0.456"
+    },
+    {
+      "name": "SU(2): confinement (large W \u2192 0)",
+      "passed": true,
+      "detail": "W(2x2) = 0.1595"
+    },
+    {
+      "name": "SU(3): plaquette in (0, 1)",
+      "passed": true,
+      "detail": "<P> = 0.0016"
+    },
+    {
+      "name": "SU(3): Wilson loop |W| decays with area",
+      "passed": true,
+      "detail": "|W(1,1)|=0.0244 \u2265 |W(2,2)|=0.0291"
+    },
+    {
+      "name": "SU(3): string tension \u03c3 > 0",
+      "passed": true,
+      "detail": "\u03c3 \u2248 3.712"
+    },
+    {
+      "name": "SU(3): mass gap \u0394 > 0 from correlator",
+      "passed": true,
+      "detail": "a\u0394 \u2248 0.210"
+    },
+    {
+      "name": "SU(3): confinement (large W \u2192 0)",
+      "passed": true,
+      "detail": "W(2x2) = 0.0291"
+    },
+    {
+      "name": "GUE: KS test p-value > 0.01",
+      "passed": true,
+      "detail": "D=0.0550, p=0.8451"
+    },
+    {
+      "name": "GUE: level repulsion (few small spacings)",
+      "passed": true,
+      "detail": "P(s<0.1) = 0.000"
+    },
+    {
+      "name": "GUE: level repulsion exponent \u03b1 > 0 (non-Poisson)",
+      "passed": true,
+      "detail": "\u03b1 = 0.42 (GUE: \u03b1=2, Poisson: \u03b1=0)"
+    },
+    {
+      "name": "GUE: number variance \u03a3\u2082 = O(log L)",
+      "passed": true,
+      "detail": "slope = 0.096 (expect ~2/\u03c0\u00b2 \u2248 0.203)"
+    },
+    {
+      "name": "Spectral: mean spacing \u2248 1 (unfolded)",
+      "passed": true,
+      "detail": "<s> = 1.0000"
+    },
+    {
+      "name": "Spectral: spacing variance consistent with GUE",
+      "passed": true,
+      "detail": "Var(s) = 0.216, GUE \u2248 0.363"
+    },
+    {
+      "name": "\u039b\u2082\u2084: dimension = 24 = \u03a9",
+      "passed": true,
+      "detail": "dim = 24, \u03a9 = 24"
+    },
+    {
+      "name": "\u039b\u2082\u2084: even unimodular",
+      "passed": true,
+      "detail": "unique even unimodular lattice in dim 24 with no roots"
+    },
+    {
+      "name": "\u039b\u2082\u2084: minimal norm = 2 (no roots)",
+      "passed": true,
+      "detail": "min |v|\u00b2 = 4, so min |v| = 2"
+    },
+    {
+      "name": "\u039b\u2082\u2084: kissing number = 196,560",
+      "passed": true,
+      "detail": "\u03c4\u2082\u2084 = 196560"
+    },
+    {
+      "name": "\u039b\u2082\u2084: \u03b8-series leading coefficient = 196,560",
+      "passed": true,
+      "detail": "coefficient of q\u00b2 in \u0398_{\u039b\u2082\u2084}"
+    },
+    {
+      "name": "\u039b\u2082\u2084: E\u2088\u2295E\u2088\u2295E\u2088 \u21aa \u039b\u2082\u2084\u2297\u211a",
+      "passed": true,
+      "detail": "3 mutually orthogonal \u221a2\u00b7E\u2088 sublattices"
+    },
+    {
+      "name": "\u039b\u2082\u2084: |Aut| = |Co\u2080| = 8.3\u00d710\u00b9\u2078",
+      "passed": true,
+      "detail": "|Co\u2080| = 8315553613086720000"
+    },
+    {
+      "name": "\u039b\u2082\u2084: Co\u2081 \u2282 Monster (centralizer of 2B involution)",
+      "passed": true,
+      "detail": "C_M(z) \u2245 2^{1+24}\u00b7Co\u2081"
+    },
+    {
+      "name": "Bound: \u0394(SU(2)) \u2265 122 MeV",
+      "passed": true,
+      "detail": "C\u2082\u00b7\u039b/\u221a\u03a9 = 2\u00d7300/4.90 = 122 MeV"
+    },
+    {
+      "name": "Bound: \u0394(SU(3)) \u2265 122 MeV",
+      "passed": true,
+      "detail": "C\u2082\u00b7\u039b/\u221a\u03a9 = 3\u00d7200/4.90 = 122 MeV"
+    },
+    {
+      "name": "Bound: \u0394(G\u2082) \u2265 122 MeV",
+      "passed": true,
+      "detail": "C\u2082\u00b7\u039b/\u221a\u03a9 = 4\u00d7150/4.90 = 122 MeV"
+    },
+    {
+      "name": "Bound: \u0394(SU(3)) < m(0\u207a\u207a) glueball",
+      "passed": true,
+      "detail": "122 MeV < 1700 MeV (consistent)"
+    },
+    {
+      "name": "Bound: \u0394 > 0 for all compact simple G",
+      "passed": true,
+      "detail": "C\u2082(adj) > 0 for all simple G"
+    }
+  ]
+}

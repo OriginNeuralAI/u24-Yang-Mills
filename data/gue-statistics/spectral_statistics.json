@@ -1,0 +1,9 @@
+{
+  "N_total": 200,
+  "num_eigenvalues": 200,
+  "ks_statistic": 0.05497114555914422,
+  "ks_pvalue": 0.8450838903998548,
+  "small_spacing_fraction": 0.0,
+  "spacings_mean": 0.9999999999999999,
+  "spacings_var": 0.2157321861507803
+}
