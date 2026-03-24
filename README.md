@@ -43,9 +43,9 @@
 
 ## Paper
 
-| Paper | Description | LaTeX |
-|-------|-------------|-------|
-| **Yang-Mills Existence and Mass Gap via the Spectral Operator Framework** (v1.0) | Proves mass gap for all compact simple G. 2,249 lines, 11 theorems, 12 proofs, 38 references. | [TeX](papers/yang-mills/main.tex) |
+| Paper | Description | PDF | LaTeX |
+|-------|-------------|-----|-------|
+| **Yang-Mills Existence and Mass Gap via the Spectral Operator Framework** (v1.0) | Proves mass gap for all compact simple G. 2,249 lines, 11 theorems, 12 proofs, 38 references. | [PDF](papers/yang-mills/main.pdf) | [TeX](papers/yang-mills/main.tex) |
 
 ## Key Result
 
