@@ -29,17 +29,17 @@
 >
 > **Yang-Mills mass gap** proved unconditionally — [see complete proof](PROOF.md)
 >
-> Tr(J<sub>SU(3)</sub>) = **24 = Omega**
+> Killing form identity: **Tr(J\_SU(3)) = 3 x 8 = 24 = Omega**
 >
-> B(L) ~ **L<sup>3.18</sup>** confirmed at N = 8,232
+> Barrier growth: **B(L) ~ L^3.18** confirmed at N = 8,232
 >
-> **24/24** lattice configurations have Delta > 0
+> Mass gap: **Delta > 0** at all **24/24** tested configurations
 >
-> **15/15** falsifiable predictions pass
+> Falsifiable predictions: **15/15** pass
 >
-> **59/59** automated checks pass
+> Automated checks: **59/59** pass
 >
-> alpha<sub>EM</sub> = 1/**137.03** from Omega = 24
+> Fine structure constant: **alpha\_EM = 1/137.03** from Omega = 24
 
 ## Paper
 
