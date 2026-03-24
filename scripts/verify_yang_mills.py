@@ -29,7 +29,7 @@ from scipy.stats import kstest
 # ──────────────────────────────────────────────────────────────────────
 
 OMEGA = 24
-DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "yang-mills"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "verification-output"
 CHECKS = []  # accumulator for (name, passed, detail)
 
 

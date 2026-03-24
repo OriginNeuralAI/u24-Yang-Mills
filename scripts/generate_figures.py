@@ -54,7 +54,7 @@ GREEN = '#1E5A32'
 OMEGA_COLOR = '#D4AF37'
 
 FIG_DIR = Path(__file__).resolve().parent.parent / "figures"
-DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "yang-mills"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "barrier-scaling"
 
 
 def save_fig(fig, name):
