@@ -10,6 +10,7 @@
 
 ---
 
+[![CI](https://github.com/OriginNeuralAI/u24-Yang-Mills/actions/workflows/validate.yml/badge.svg)](https://github.com/OriginNeuralAI/u24-Yang-Mills/actions/workflows/validate.yml)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2603.XXXXX)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
@@ -338,6 +339,20 @@ Key published results independently confirming our claims:
 | Confinement via center vortices | Greensite (2020) | Springer LNP 972 |
 | GUE in SU(3) super-YM | Beisert et al. (2020) | arXiv:2011.04633 |
 | Exponential clustering => mass gap | Bledsoe (2025) | arXiv:2506.00284 |
+
+## Known Limitations
+
+We explicitly acknowledge the following:
+
+1. **BGS conjecture is not a theorem.** Mechanism III (GUE level repulsion) is conditional on the Bohigas-Giannoni-Schmit conjecture. However, the mass gap does NOT depend on BGS — Mechanisms I and II are unconditional.
+
+2. **Barrier measurements are computational, not analytic.** The compact resolvent proof relies on measured B(L) ~ L^3.18 from the Isomorphic Engine. An analytic proof of barrier divergence would strengthen the argument.
+
+3. **Lattice sizes are finite.** The largest computation reaches N = 8,232 spins (SU(3), L=7). Extrapolation to the thermodynamic limit relies on the observed power-law trend.
+
+4. **Continuum limit theorem (5.4) is new.** The argument that barrier growth + RP + AF implies all five OS axioms has not been independently reviewed. The mathematical steps (sub-additivity, exponential clustering, Rellich-Kondrachov) are standard, but their combination in this context is novel.
+
+5. **The Isomorphic Engine is proprietary.** Large-scale computations (N > 2000) cannot be independently reproduced without the engine. All source code for the experiments is provided in `engine/`.
 
 ## On-Chain Anchoring
 

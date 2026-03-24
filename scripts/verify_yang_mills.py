@@ -30,6 +30,7 @@ from scipy.stats import kstest
 
 OMEGA = 24
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "verification-output"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 CHECKS = []  # accumulator for (name, passed, detail)
 
 
