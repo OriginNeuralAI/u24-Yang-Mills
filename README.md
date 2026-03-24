@@ -17,7 +17,7 @@
 [![Data: Open](https://img.shields.io/badge/Data-Open-brightgreen.svg)](#data)
 [![Verification](https://img.shields.io/badge/Verification-59%2F59_checks-D4AF37.svg)](#verification-dashboard)
 [![Predictions](https://img.shields.io/badge/Predictions-15%2F15_pass-D4AF37.svg)](#falsifiable-predictions)
-[![Reproducible](https://img.shields.io/badge/Reproducible-with_public_tools-blue.svg)](#contributing-and-reproducibility)
+[![Reproducible](https://img.shields.io/badge/Reproducible-with_public_tools-blue.svg)](CONTRIBUTING.md)
 [![BSV Anchored](https://img.shields.io/badge/BSV-On--Chain_Anchored-E8B125.svg)](#on-chain-anchoring)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
@@ -301,18 +301,28 @@ python scripts/generate_figures.py       # Regenerate all 8 figures
 
 ```
 u24-Yang-Mills/
-├── README.md                    # This file
-├── PROOF.md                     # Complete self-contained proof
-├── PROOF-OUTLINE.md             # 8-step condensed outline
-├── CITATION.cff                 # Machine-readable citation
-├── CONTRIBUTING.md              # Reproducibility guide
-├── LICENSE                      # CC BY 4.0
-├── data/                        # All numerical data (JSON)
-├── figures/                     # 8 publication-quality figures (PNG)
-├── notebooks/                   # Jupyter notebooks for guided analysis
-├── papers/yang-mills/           # LaTeX paper (2,249 lines)
-├── scripts/                     # Python verification + figure generation
-└── engine/                      # Rust engine experiments (7 examples)
+├── README.md                           # This file
+├── PROOF.md                            # Complete self-contained proof (8 steps, 12 theorems)
+├── PROOF-OUTLINE.md                    # Condensed outline with dependency diagram
+├── CITATION.cff                        # Machine-readable citation
+├── CONTRIBUTING.md                     # Reproducibility guide
+├── LICENSE                             # CC BY 4.0
+├── data/
+│   ├── README.md                       # Data dictionary
+│   ├── checksums.sha256                # SHA-256 integrity hashes
+│   ├── barrier-scaling/                # B(L) measurements (SU(2): 6 pts, SU(3): 5 pts)
+│   ├── coupling-matrices/              # J_G for SU(2), SU(3), SU(N) traces
+│   ├── e8-root-system/                 # 240 roots, Casimir traces
+│   ├── gue-statistics/                 # KS distance, spacing variance
+│   ├── leech-lattice/                  # Lambda_24 properties
+│   ├── mass-gap/                       # Delta at 24 configs + bounds
+│   ├── os-axioms/                      # f(L), C(r), L-independence
+│   └── verification-summary/           # 59/59 check results
+├── figures/                            # 8 publication-quality figures (PNG)
+├── notebooks/                          # Environment for guided analysis
+├── papers/yang-mills/                  # LaTeX paper (2,249 lines, 38 refs)
+├── scripts/                            # Python verification (59/59) + figures
+└── engine/                             # 7 Rust engine experiments (3.6hr total)
 ```
 
 ## Supporting Literature
