@@ -1,0 +1,28 @@
+Copyright (c) 2026 Bryan Daugherty, Gregory Ward, Shawn Ryan / Origin Neural AI. All rights reserved.
+
+This repository contains published research results and verification data for
+the Yang-Mills mass gap proof via the spectral operator framework. Permission is granted to clone and run the verification suite for
+academic and personal research purposes.
+
+THE FOLLOWING ARE EXPRESSLY PROHIBITED WITHOUT PRIOR WRITTEN CONSENT:
+  - Commercial use of any code, data, or findings
+  - Redistribution or republication of the source code
+  - Creation of derivative works for commercial purposes
+  - Use of the Isomorphic Engine specifications, parameters, or architecture
+    details contained herein to build competing systems
+
+THE FOLLOWING ARE PERMITTED:
+  - Reading, studying, and verifying all mathematical claims
+  - Running verification scripts on provided data
+  - Citing the work in academic publications
+  - Reproducing results using independent implementations
+
+THE ISOMORPHIC ENGINE (referenced but not included) is proprietary software
+owned by Origin Neural AI. Engine outputs (JSON data files) are provided for
+verification purposes only.
+
+THIS SOFTWARE AND DATA ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THIS SOFTWARE OR DATA.
+
+Contact: bryan@smartledger.solutions

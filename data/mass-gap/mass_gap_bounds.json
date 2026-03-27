@@ -1,0 +1,17 @@
+{
+  "SU(2)": {
+    "C2": 2,
+    "Lambda_G_MeV": 300,
+    "delta_bound_MeV": 122.47448713915891
+  },
+  "SU(3)": {
+    "C2": 3,
+    "Lambda_G_MeV": 200,
+    "delta_bound_MeV": 122.47448713915891
+  },
+  "G\u2082": {
+    "C2": 4,
+    "Lambda_G_MeV": 150,
+    "delta_bound_MeV": 122.47448713915891
+  }
+}

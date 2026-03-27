@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Yang-Mills Existence and Mass Gap via the Spectral Operator Framework"
+message: "If you reference this work, please cite as below."
+type: article
+authors:
+  - family-names: Daugherty
+    given-names: Bryan
+  - family-names: Ward
+    given-names: Gregory
+  - family-names: Ryan
+    given-names: Shawn
+repository-code: "https://github.com/OriginNeuralAI/u24-Yang-Mills"
+license: LicenseRef-AllRightsReserved
+date-released: "2026-03-24"
+version: "1.0"
+keywords:
+  - yang-mills
+  - mass-gap
+  - millennium-prize
+  - spectral-operator
+  - omega-24
+  - gauge-theory
+  - confinement
